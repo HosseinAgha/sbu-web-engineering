@@ -1,0 +1,242 @@
+import {Cite, Image, SVG, Link} from 'spectacle';
+import {DarkSlide, CodeSlide} from './slides';
+import RegularComponent from './regular-component';
+import Flip from './components/Flip';
+import Footnote from './components/Footnote';
+import YouTube from 'react-youtube';
+
+
+<Image src="hossein-github.png" height={400} margin="0px auto 80px auto"/>
+
+Hi, I'm hossein
+
+---
+
+<Image src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height={400} margin="0px auto 80px auto"/>
+A quick introduction <Flip> 🏃🏃🏃 </Flip>
+
+---
+
+export const transition = ['zoom']
+
+# Objectives
+
+- How V8 works internally?
+- How to install and use NodeJS?
+- How to write a NodeJS package?
+- What is commonjs vs esmodule?
+- How to use `npm` registery?
+- What is Async I/O vs Sync I/O?
+- Where should we use/avoid NodeJS?
+
+---
+
+<Image src="v8.svg" height={400}/>
+
+---
+
+![](https://images.ponyfoo.com/uploads/addy-ad3b2ea8f9be48a18c4bdad5041a3237.png)
+
+---
+
+# What is NodeJS?
+
+---
+
+<Image src="main-desktop-browser-logos.png" />
+
+---
+
+<Image src="cage.jpg" height={500} margin="40px auto"/>
+
+> JavaScript in the wild
+
+---
+
+# Hands On
+
+---
+
+# The Problem of Web?
+
+---
+
+## The Old Way
+
+- Get the Data
+- Fill the template
+- Return the HTML
+
+---
+
+[www.digikala.com/product/dkp-894864](https://www.digikala.com/product/dkp-894864/%D8%B4%D8%B1%D8%A8%D8%AA-%D9%BE%D8%B1%D8%AA%D9%82%D8%A7%D9%84-%D8%B3%D9%86-%D8%A7%DB%8C%DA%86-%D9%85%D9%82%D8%AF%D8%A7%D8%B1-2-%DA%A9%DB%8C%D9%84%D9%88%DA%AF%D8%B1%D9%85?variant_id=1934061)
+
+---
+
+<Image src="web-template.png" />
+
+---
+
+Database give me `dkp-894864` data!
+
+---
+export default CodeSlide
+
+```javascript
+{
+  title: "شربت پرتقال سن ایچ مقدار 2 کیلوگرم",
+  features: [
+    "نوع شربت: پرتقال",
+    "پالپ: ندارد",
+    "نوع بسته‌بندی: خانواده"
+  ],
+  price: {
+    original: "40000",
+    afterDiscount: "27900"
+  },
+  seller: "دیجی کالا",
+  images: ["https://dkstatics-public.digikala.com/digikala-products/4161118.jpg"]
+}
+```
+
+---
+
+<Image src="filled-web-template.png" />
+
+---
+
+<Image src="sync-io.png" />
+
+---
+
+<Image src="figure2.gif" />
+
+<Footnote>
+  <Link href="https://developer.ibm.com/articles/l-async">developer.ibm.com</Link>
+</Footnote>
+
+---
+
+<Image src="async-io.svg" />
+
+---
+
+<Image src="figure5.gif" />
+<Footnote>
+  <Link href="https://developer.ibm.com/articles/l-async">developer.ibm.com</Link>
+</Footnote>
+
+---
+
+Let's listen to NodeJS creator
+
+---
+
+<YouTube
+  videoId="EeYvFl7li9E"
+  opts={{
+    playerVars: {
+      autoplay: 1,
+      start: 0,
+      end: 165
+    }
+  }}
+/>
+
+---
+
+# Why Node?
+
+---
+
+1. Node is a perfect delegator and modern web servers are all about __delegation__
+
+[vs sync language](https://www.tandemseven.com/blog/performance-java-vs-node/)
+
+---
+
+Node gave frontend developers the opportunity to create their own tools
+
+---
+
+<Image src="js-libs.png" height="380px" margin="20px auto"/>
+
+<Footnote>
+  <Link href="https://medium.com/yetanotherwdb/how-to-choose-the-best-front-end-framework-34255b54cef0">medium.com/yetanotherwdb</Link>
+</Footnote>
+Explosion in javascript tooling popularized JavaScript Web Applications
+
+---
+
+Remember the the Old Way (web servers)
+
+- Check the access
+- Get the Data
+- Fill the template
+- Return the HTML
+
+---
+
+It is turned to this now (api servers)
+
+- Check the access
+- Get the Data
+- Process the Data
+- Return the Data
+
+---
+
+So Modern (API) servers don't even create `HTML`
+
+---
+
+Node is 😀 now!
+
+---
+
+3. No Context Switch: JavaScript everywhere
+
+---
+
+4. Node open source community is by far the most advanced and mature
+
+---
+
+more well tested, mature, documented tools
+
+---
+
+# Let's end with community
+
+---
+
+Development is usually a team effort
+
+---
+
+You can't reinvent the wheel
+
+---
+
+JavaScript power is in community!
+
+---
+
+- Ryan Dahl: 28 years old when started NodeJS in 2009
+- Sebastian McKenzie: 17 years old when [started babel in 2014](https://medium.com/@sebmck/2015-in-review-51ac7035e272)
+
+---
+
+Be brave!
+
+Join the community!
+
+Start contributing!
+
+---
+
+[They welcome you](https://github.com/KaTeX/KaTeX/issues/729) regardless of your religion, ethnicity, background
+
+---
+
+Questions?
