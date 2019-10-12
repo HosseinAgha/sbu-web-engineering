@@ -1,1 +1,1 @@
-Run `node index.js`
+Run `node --experimental-modules index.mjs`
