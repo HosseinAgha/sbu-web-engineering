@@ -1,0 +1,11 @@
+{
+  "name": "sbu-web-engineering-session-2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.4.0"
+  }
+}

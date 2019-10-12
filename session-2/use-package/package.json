@@ -1,0 +1,14 @@
+{
+  "name": "use-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sbu-web-engineering-session-2": "0.0.1"
+  }
+}
